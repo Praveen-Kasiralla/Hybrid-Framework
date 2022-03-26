@@ -41,6 +41,7 @@ public class PropertiesListPage {
 	public void fullscreen() throws InterruptedException, IOException {
 		exReport.enterInfoLog("Clicking on fullscreen button on the map");
 		logs.enterInfoLog("Clicking on fullscreen button on the map");
+		webDriver.waitUntilVisible(driver, PropertiesListPageUi.fullscreen);
 		webDriver.waitUntilClikable(driver, PropertiesListPageUi.fullscreen);
 		webDriver.clickElement(driver, PropertiesListPageUi.fullscreen);
 		exReport.enterPassLogWithSnap("Map has opened in fullscreen");
