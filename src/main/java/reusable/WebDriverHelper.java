@@ -90,27 +90,27 @@ public class WebDriverHelper {
 	}
 	
 	public void waitUntilVisible(WebDriver driver,By element) {
-		WebDriverWait wait = new WebDriverWait(driver,3);
+		WebDriverWait wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(element));
 	}
 	
 	public void waitUntilValuePresent(WebDriver driver,By element,String value) {
-		WebDriverWait wait = new WebDriverWait(driver,3);
+		WebDriverWait wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.textToBePresentInElementValue(element,value));
 	}
 	
 	public void waitUntilTextPresent(WebDriver driver,By element,String value) {
-		WebDriverWait wait = new WebDriverWait(driver,3);
+		WebDriverWait wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.textToBePresentInElementLocated(element,value));
 	}
 	
 	public void waitUntilPageTitle(WebDriver driver,String value) {
-		WebDriverWait wait = new WebDriverWait(driver,3);
+		WebDriverWait wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.titleContains(value));
 	}
 	
 	public void waitUntilClikable(WebDriver driver,By element) {
-		WebDriverWait wait = new WebDriverWait(driver,3);
+		WebDriverWait wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
