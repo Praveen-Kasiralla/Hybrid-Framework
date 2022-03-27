@@ -164,5 +164,67 @@ public class HomePage extends BaseClass {
 		}
 	}
 	
+	public void clickLogin() throws IOException {
+		exReport.enterInfoLog("Clicking on Login button");
+		logs.enterInfoLog("Clicking on Login Button");
+		webDriver.clickElement(driver, HomePageUi.login);
+		webDriver.waitUntilVisible(driver, HomePageUi.loginSignUpForm);
+		if(webDriver.isDisplayed(driver, HomePageUi.loginSignUpForm)) {
+			exReport.enterPassLog("Login form is displayed");
+			logs.enterInfoLog("Login form is displayed");
+		}else {
+			exReport.enterFailLogWithSnap("Login form is not displayed");
+			logs.enterErrorLog("Login form is not displayed");
+		}
+	}
+	public void enterNumberAndSelectPassword(String number) throws IOException {
+		exReport.enterInfoLog("Enter Phone Number");
+		logs.enterInfoLog("Enter phone number");
+		webDriver.sendText(driver, HomePageUi.phoneNumber, number);
+		webDriver.waitUntilClikable(driver, HomePageUi.selectPassword);
+		webDriver.clickElement(driver, HomePageUi.selectPassword);
+		if(webDriver.isDisplayed(driver, HomePageUi.enterPassword)) {
+			exReport.enterPassLog("field are displayed after clicking password");
+			logs.enterInfoLog("field are displayed after clicking password");
+		}else {
+			exReport.enterFailLogWithSnap("Fields are not displayed");
+			logs.enterErrorLog("Fields are not displayed");
+		}	
+	}
+	
+	public void enterValidPassword(String password) throws IOException {
+		exReport.enterInfoLog("Entering valid password and clicking continue");
+		logs.enterInfoLog("Entering valid password and clicking continue");
+		webDriver.sendText(driver, HomePageUi.enterPassword, password);
+		webDriver.waitUntilValuePresent(driver, HomePageUi.enterPassword, password);
+		webDriver.clickElement(driver, HomePageUi.showPassword);
+		webDriver.clickElement(driver, HomePageUi.Continue);
+		webDriver.waitUntilVisible(driver, HomePageUi.progileName);
+		if(webDriver.isDisplayed(driver, HomePageUi.progileName)) {
+			exReport.enterPassLogWithSnap("Login is successfull");
+			logs.enterInfoLog("Login is successfull");
+		}else {
+			exReport.enterFailLogWithSnap("Login was Unsuccessfull");
+			logs.enterErrorLog("Login was Unsuccessfull");
+		}
+	}
+	
+	public void enterInvalidPassword(String password) throws IOException {
+		exReport.enterInfoLog("Entering Invalid password and clicking continue");
+		logs.enterInfoLog("Entering Invalid password and clicking continue");
+		webDriver.sendText(driver, HomePageUi.enterPassword, password);
+		webDriver.waitUntilValuePresent(driver, HomePageUi.enterPassword, password);
+		webDriver.clickElement(driver, HomePageUi.showPassword);
+		webDriver.clickElement(driver, HomePageUi.Continue);
+		webDriver.waitUntilVisible(driver, HomePageUi.invalidMsg);
+		if(webDriver.isDisplayed(driver, HomePageUi.invalidMsg)) {
+			exReport.enterPassLogWithSnap("Invalid Password is displayed");
+			logs.enterInfoLog("Invalid Password is displayed");
+		}else {
+			exReport.enterFailLogWithSnap("Invalid Password was not displayed");
+			logs.enterErrorLog("Invalid Password was not displayed");
+		}
+	}
+	
 
 }

@@ -37,6 +37,9 @@ public class ConfigReader {
 	public static String getEmiData() {
 		return pro.getProperty("excelPathEmi");
 	}
+	public static String getLoginData() {
+		return pro.getProperty("excelLoginEmi");
+	}
 	public static String getReportsConfig() {
 		return pro.getProperty("reportsConfig");
 	}

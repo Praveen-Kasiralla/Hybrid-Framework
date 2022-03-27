@@ -52,4 +52,14 @@
 			<class name="runner.Interior" />
 		</classes>
 	</test>
+	<test thread-count="5" name="Test11">
+		<classes>
+			<class name="runner.ValigLogin" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Test12">
+		<classes>
+			<class name="runner.InvalidLogin" />
+		</classes>
+	</test>
 </suite> <!-- Suite -->

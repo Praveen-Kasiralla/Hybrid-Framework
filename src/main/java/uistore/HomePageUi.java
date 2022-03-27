@@ -47,6 +47,16 @@ public class HomePageUi {
 	public static By homeServices = By.xpath("//*[text()='Home Services']");
 	public static By interiors = By.cssSelector("#interiors");
 	public static By burgerHome = By.cssSelector("#home");
+	public static By login = By.xpath("//*[text()='Log in']");
+	public static By invalidMsg = By.cssSelector(".help-block");
+	public static By loginSignUpForm = By.cssSelector(".login-signup__modal-content");
+	public static By progileName = By.cssSelector("[class='nb__3PfOV nb__1MUNg']");
+	public static By phoneNumber = By.cssSelector("#signUp-phoneNumber");
+	public static By Continue = By.cssSelector("#signUpSubmit");
+	public static By selectPassword = By.cssSelector("#login-signup-form-login-radio-password");
+	public static By enterPassword = By.cssSelector("#login-signup-form__password-input");
+	public static By showPassword = By.cssSelector("[class='jss1 cursor-pointer']");
+
 	
 
 	

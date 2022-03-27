@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="70" passed="70" failed="0" skipped="0">
+<testng-results ignored="0" total="80" passed="80" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-26T19:46:08 GMT+05:30" name="Suite" finished-at="2022-03-26T19:47:36 GMT+05:30" duration-ms="88391">
+  <suite started-at="2022-03-27T12:27:07 GMT+05:30" name="Suite" finished-at="2022-03-27T12:28:49 GMT+05:30" duration-ms="102176">
     <groups>
     </groups>
-    <test started-at="2022-03-26T19:46:08 GMT+05:30" name="Test1" finished-at="2022-03-26T19:46:20 GMT+05:30" duration-ms="12528">
+    <test started-at="2022-03-27T12:27:07 GMT+05:30" name="Test1" finished-at="2022-03-27T12:27:21 GMT+05:30" duration-ms="13750">
       <class name="runner.BuyPropertyArticle">
-        <test-method is-config="true" signature="required()[pri:0, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:08 GMT+05:30" name="required" finished-at="2022-03-26T19:46:08 GMT+05:30" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:07 GMT+05:30" name="required" finished-at="2022-03-27T12:27:07 GMT+05:30" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- required -->
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:08 GMT+05:30" name="driverSetUp" finished-at="2022-03-26T19:46:10 GMT+05:30" duration-ms="2058" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:07 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:27:09 GMT+05:30" duration-ms="2317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,51 +22,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="setUp()[pri:0, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:10 GMT+05:30" name="setUp" finished-at="2022-03-26T19:46:10 GMT+05:30" duration-ms="9" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:09 GMT+05:30" name="setUp" finished-at="2022-03-27T12:27:09 GMT+05:30" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNoDroker()[pri:1, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:10 GMT+05:30" name="openNoDroker" finished-at="2022-03-26T19:46:13 GMT+05:30" duration-ms="3122" status="PASS">
+        <test-method signature="openNoDroker()[pri:1, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:09 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:27:12 GMT+05:30" duration-ms="3039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNoDroker -->
-        <test-method signature="selectSearchType()[pri:2, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:13 GMT+05:30" name="selectSearchType" finished-at="2022-03-26T19:46:14 GMT+05:30" duration-ms="614" status="PASS">
+        <test-method signature="selectSearchType()[pri:2, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:12 GMT+05:30" name="selectSearchType" finished-at="2022-03-27T12:27:13 GMT+05:30" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSearchType -->
-        <test-method signature="selectCity()[pri:3, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:14 GMT+05:30" name="selectCity" finished-at="2022-03-26T19:46:14 GMT+05:30" duration-ms="313" status="PASS">
+        <test-method signature="selectCity()[pri:3, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:13 GMT+05:30" name="selectCity" finished-at="2022-03-27T12:27:13 GMT+05:30" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCity -->
-        <test-method signature="optionFromDropDown()[pri:4, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:14 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-26T19:46:15 GMT+05:30" duration-ms="668" status="PASS">
+        <test-method signature="optionFromDropDown()[pri:4, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:13 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-27T12:27:14 GMT+05:30" duration-ms="679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- optionFromDropDown -->
-        <test-method signature="selectLocalityAndSearch()[pri:5, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:15 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-26T19:46:16 GMT+05:30" duration-ms="1683" status="PASS">
+        <test-method signature="selectLocalityAndSearch()[pri:5, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:14 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-27T12:27:16 GMT+05:30" duration-ms="2051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLocalityAndSearch -->
-        <test-method signature="clickArticle()[pri:7, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:16 GMT+05:30" name="clickArticle" finished-at="2022-03-26T19:46:18 GMT+05:30" duration-ms="1765" status="PASS">
+        <test-method signature="clickArticle()[pri:7, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:16 GMT+05:30" name="clickArticle" finished-at="2022-03-27T12:27:18 GMT+05:30" duration-ms="1512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickArticle -->
-        <test-method signature="seePhotos()[pri:8, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:18 GMT+05:30" name="seePhotos" finished-at="2022-03-26T19:46:19 GMT+05:30" duration-ms="1210" status="PASS">
+        <test-method signature="seePhotos()[pri:8, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:18 GMT+05:30" name="seePhotos" finished-at="2022-03-27T12:27:19 GMT+05:30" duration-ms="1638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seePhotos -->
-        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-26T19:46:19 GMT+05:30" name="driverExit" finished-at="2022-03-26T19:46:20 GMT+05:30" duration-ms="1021" status="PASS">
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.BuyPropertyArticle@611889f4]" started-at="2022-03-27T12:27:19 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:27:21 GMT+05:30" duration-ms="1247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverExit -->
       </class> <!-- runner.BuyPropertyArticle -->
     </test> <!-- Test1 -->
-    <test started-at="2022-03-26T19:46:21 GMT+05:30" name="Test2" finished-at="2022-03-26T19:46:29 GMT+05:30" duration-ms="8869">
+    <test started-at="2022-03-27T12:27:21 GMT+05:30" name="Test2" finished-at="2022-03-27T12:27:31 GMT+05:30" duration-ms="10629">
       <class name="runner.BuyPropertyMap">
-        <test-method is-config="true" signature="required()[pri:0, instance:runner.BuyPropertyMap@2c1b194a]" started-at="2022-03-26T19:46:21 GMT+05:30" name="required" finished-at="2022-03-26T19:46:21 GMT+05:30" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.BuyPropertyMap@66f57048]" started-at="2022-03-27T12:27:21 GMT+05:30" name="required" finished-at="2022-03-27T12:27:21 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- required -->
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.BuyPropertyMap@2c1b194a]" started-at="2022-03-26T19:46:21 GMT+05:30" name="driverSetUp" finished-at="2022-03-26T19:46:22 GMT+05:30" duration-ms="1148" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.BuyPropertyMap@66f57048]" started-at="2022-03-27T12:27:21 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:27:22 GMT+05:30" duration-ms="1413" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,47 +77,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="setUp()[pri:0, instance:runner.BuyPropertyMap@2c1b194a]" started-at="2022-03-26T19:46:22 GMT+05:30" name="setUp" finished-at="2022-03-26T19:46:22 GMT+05:30" duration-ms="1" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:runner.BuyPropertyMap@66f57048]" started-at="2022-03-27T12:27:22 GMT+05:30" name="setUp" finished-at="2022-03-27T12:27:22 GMT+05:30" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNoDroker()[pri:1, instance:runner.BuyPropertyMap@2c1b194a]" started-at="2022-03-26T19:46:22 GMT+05:30" name="openNoDroker" finished-at="2022-03-26T19:46:23 GMT+05:30" duration-ms="1647" status="PASS">
+        <test-method signature="openNoDroker()[pri:1, instance:runner.BuyPropertyMap@66f57048]" started-at="2022-03-27T12:27:22 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:27:24 GMT+05:30" duration-ms="1928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNoDroker -->
-        <test-method signature="selectSearchType()[pri:2, instance:runner.BuyPropertyMap@2c1b194a]" started-at="2022-03-26T19:46:23 GMT+05:30" name="selectSearchType" finished-at="2022-03-26T19:46:24 GMT+05:30" duration-ms="634" status="PASS">
+        <test-method signature="selectSearchType()[pri:2, instance:runner.BuyPropertyMap@66f57048]" started-at="2022-03-27T12:27:24 GMT+05:30" name="selectSearchType" finished-at="2022-03-27T12:27:25 GMT+05:30" duration-ms="551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSearchType -->
-        <test-method signature="selectCity()[pri:3, instance:runner.BuyPropertyMap@2c1b194a]" started-at="2022-03-26T19:46:24 GMT+05:30" name="selectCity" finished-at="2022-03-26T19:46:24 GMT+05:30" duration-ms="286" status="PASS">
+        <test-method signature="selectCity()[pri:3, instance:runner.BuyPropertyMap@66f57048]" started-at="2022-03-27T12:27:25 GMT+05:30" name="selectCity" finished-at="2022-03-27T12:27:25 GMT+05:30" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCity -->
-        <test-method signature="optionFromDropDown()[pri:4, instance:runner.BuyPropertyMap@2c1b194a]" started-at="2022-03-26T19:46:24 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-26T19:46:25 GMT+05:30" duration-ms="615" status="PASS">
+        <test-method signature="optionFromDropDown()[pri:4, instance:runner.BuyPropertyMap@66f57048]" started-at="2022-03-27T12:27:25 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-27T12:27:26 GMT+05:30" duration-ms="695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- optionFromDropDown -->
-        <test-method signature="selectLocalityAndSearch()[pri:5, instance:runner.BuyPropertyMap@2c1b194a]" started-at="2022-03-26T19:46:25 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-26T19:46:26 GMT+05:30" duration-ms="1503" status="PASS">
+        <test-method signature="selectLocalityAndSearch()[pri:5, instance:runner.BuyPropertyMap@66f57048]" started-at="2022-03-27T12:27:26 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-27T12:27:28 GMT+05:30" duration-ms="1872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLocalityAndSearch -->
-        <test-method signature="swithMapAndZoom()[pri:7, instance:runner.BuyPropertyMap@2c1b194a]" started-at="2022-03-26T19:46:26 GMT+05:30" name="swithMapAndZoom" finished-at="2022-03-26T19:46:29 GMT+05:30" duration-ms="2483" status="PASS">
+        <test-method signature="swithMapAndZoom()[pri:7, instance:runner.BuyPropertyMap@66f57048]" started-at="2022-03-27T12:27:28 GMT+05:30" name="swithMapAndZoom" finished-at="2022-03-27T12:27:31 GMT+05:30" duration-ms="3118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- swithMapAndZoom -->
-        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.BuyPropertyMap@2c1b194a]" started-at="2022-03-26T19:46:29 GMT+05:30" name="driverExit" finished-at="2022-03-26T19:46:29 GMT+05:30" duration-ms="548" status="PASS">
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.BuyPropertyMap@66f57048]" started-at="2022-03-27T12:27:31 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:27:31 GMT+05:30" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverExit -->
       </class> <!-- runner.BuyPropertyMap -->
     </test> <!-- Test2 -->
-    <test started-at="2022-03-26T19:46:29 GMT+05:30" name="Test3" finished-at="2022-03-26T19:46:40 GMT+05:30" duration-ms="10927">
+    <test started-at="2022-03-27T12:27:31 GMT+05:30" name="Test3" finished-at="2022-03-27T12:27:43 GMT+05:30" duration-ms="11239">
       <class name="runner.RentMap">
-        <test-method is-config="true" signature="required()[pri:0, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:29 GMT+05:30" name="required" finished-at="2022-03-26T19:46:29 GMT+05:30" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:31 GMT+05:30" name="required" finished-at="2022-03-27T12:27:31 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- required -->
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:29 GMT+05:30" name="driverSetUp" finished-at="2022-03-26T19:46:31 GMT+05:30" duration-ms="1186" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:31 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:27:32 GMT+05:30" duration-ms="1160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,51 +128,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="setUp()[pri:0, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:31 GMT+05:30" name="setUp" finished-at="2022-03-26T19:46:31 GMT+05:30" duration-ms="1" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:32 GMT+05:30" name="setUp" finished-at="2022-03-27T12:27:32 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNoDroker()[pri:1, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:31 GMT+05:30" name="openNoDroker" finished-at="2022-03-26T19:46:32 GMT+05:30" duration-ms="1611" status="PASS">
+        <test-method signature="openNoDroker()[pri:1, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:32 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:27:34 GMT+05:30" duration-ms="1581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNoDroker -->
-        <test-method signature="selectSearchType()[pri:2, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:32 GMT+05:30" name="selectSearchType" finished-at="2022-03-26T19:46:33 GMT+05:30" duration-ms="655" status="PASS">
+        <test-method signature="selectSearchType()[pri:2, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:34 GMT+05:30" name="selectSearchType" finished-at="2022-03-27T12:27:35 GMT+05:30" duration-ms="760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSearchType -->
-        <test-method signature="selectCity()[pri:3, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:33 GMT+05:30" name="selectCity" finished-at="2022-03-26T19:46:33 GMT+05:30" duration-ms="357" status="PASS">
+        <test-method signature="selectCity()[pri:3, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:35 GMT+05:30" name="selectCity" finished-at="2022-03-27T12:27:35 GMT+05:30" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCity -->
-        <test-method signature="selectRentPropertyType()[pri:4, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:33 GMT+05:30" name="selectRentPropertyType" finished-at="2022-03-26T19:46:33 GMT+05:30" duration-ms="103" status="PASS">
+        <test-method signature="selectRentPropertyType()[pri:4, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:35 GMT+05:30" name="selectRentPropertyType" finished-at="2022-03-27T12:27:35 GMT+05:30" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectRentPropertyType -->
-        <test-method signature="optionFromDropDown()[pri:5, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:33 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-26T19:46:34 GMT+05:30" duration-ms="591" status="PASS">
+        <test-method signature="optionFromDropDown()[pri:5, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:35 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-27T12:27:36 GMT+05:30" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- optionFromDropDown -->
-        <test-method signature="selectLocalityAndSearch()[pri:6, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:34 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-26T19:46:36 GMT+05:30" duration-ms="1843" status="PASS">
+        <test-method signature="selectLocalityAndSearch()[pri:6, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:36 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-27T12:27:39 GMT+05:30" duration-ms="2697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLocalityAndSearch -->
-        <test-method signature="swithMapAndZoom()[pri:7, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:36 GMT+05:30" name="swithMapAndZoom" finished-at="2022-03-26T19:46:40 GMT+05:30" duration-ms="4094" status="PASS">
+        <test-method signature="swithMapAndZoom()[pri:7, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:39 GMT+05:30" name="swithMapAndZoom" finished-at="2022-03-27T12:27:42 GMT+05:30" duration-ms="3266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- swithMapAndZoom -->
-        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.RentMap@437da279]" started-at="2022-03-26T19:46:40 GMT+05:30" name="driverExit" finished-at="2022-03-26T19:46:40 GMT+05:30" duration-ms="478" status="PASS">
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.RentMap@23c30a20]" started-at="2022-03-27T12:27:42 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:27:43 GMT+05:30" duration-ms="551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverExit -->
       </class> <!-- runner.RentMap -->
     </test> <!-- Test3 -->
-    <test started-at="2022-03-26T19:46:40 GMT+05:30" name="Test4" finished-at="2022-03-26T19:46:50 GMT+05:30" duration-ms="10155">
+    <test started-at="2022-03-27T12:27:43 GMT+05:30" name="Test4" finished-at="2022-03-27T12:27:53 GMT+05:30" duration-ms="10426">
       <class name="runner.RentArticle">
-        <test-method is-config="true" signature="required()[pri:0, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:40 GMT+05:30" name="required" finished-at="2022-03-26T19:46:40 GMT+05:30" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:43 GMT+05:30" name="required" finished-at="2022-03-27T12:27:43 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- required -->
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:40 GMT+05:30" name="driverSetUp" finished-at="2022-03-26T19:46:41 GMT+05:30" duration-ms="1059" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:43 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:27:44 GMT+05:30" duration-ms="1035" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,55 +183,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="setUp()[pri:0, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:41 GMT+05:30" name="setUp" finished-at="2022-03-26T19:46:41 GMT+05:30" duration-ms="0" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:44 GMT+05:30" name="setUp" finished-at="2022-03-27T12:27:44 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNoDroker()[pri:1, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:41 GMT+05:30" name="openNoDroker" finished-at="2022-03-26T19:46:43 GMT+05:30" duration-ms="1967" status="PASS">
+        <test-method signature="openNoDroker()[pri:1, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:44 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:27:45 GMT+05:30" duration-ms="1387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNoDroker -->
-        <test-method signature="selectSearchType()[pri:2, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:43 GMT+05:30" name="selectSearchType" finished-at="2022-03-26T19:46:44 GMT+05:30" duration-ms="625" status="PASS">
+        <test-method signature="selectSearchType()[pri:2, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:45 GMT+05:30" name="selectSearchType" finished-at="2022-03-27T12:27:46 GMT+05:30" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSearchType -->
-        <test-method signature="selectCity()[pri:3, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:44 GMT+05:30" name="selectCity" finished-at="2022-03-26T19:46:44 GMT+05:30" duration-ms="340" status="PASS">
+        <test-method signature="selectCity()[pri:3, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:46 GMT+05:30" name="selectCity" finished-at="2022-03-27T12:27:46 GMT+05:30" duration-ms="455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCity -->
-        <test-method signature="selectRentPropertyType()[pri:4, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:44 GMT+05:30" name="selectRentPropertyType" finished-at="2022-03-26T19:46:44 GMT+05:30" duration-ms="98" status="PASS">
+        <test-method signature="selectRentPropertyType()[pri:4, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:46 GMT+05:30" name="selectRentPropertyType" finished-at="2022-03-27T12:27:46 GMT+05:30" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectRentPropertyType -->
-        <test-method signature="optionFromDropDown()[pri:5, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:44 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-26T19:46:45 GMT+05:30" duration-ms="651" status="PASS">
+        <test-method signature="optionFromDropDown()[pri:5, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:46 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-27T12:27:47 GMT+05:30" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- optionFromDropDown -->
-        <test-method signature="selectLocalityAndSearch()[pri:6, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:45 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-26T19:46:47 GMT+05:30" duration-ms="2232" status="PASS">
+        <test-method signature="selectLocalityAndSearch()[pri:6, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:47 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-27T12:27:49 GMT+05:30" duration-ms="2554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLocalityAndSearch -->
-        <test-method signature="clickArticle()[pri:7, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:47 GMT+05:30" name="clickArticle" finished-at="2022-03-26T19:46:49 GMT+05:30" duration-ms="1414" status="PASS">
+        <test-method signature="clickArticle()[pri:7, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:49 GMT+05:30" name="clickArticle" finished-at="2022-03-27T12:27:51 GMT+05:30" duration-ms="1912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickArticle -->
-        <test-method signature="seePhotos()[pri:8, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:49 GMT+05:30" name="seePhotos" finished-at="2022-03-26T19:46:50 GMT+05:30" duration-ms="1141" status="PASS">
+        <test-method signature="seePhotos()[pri:8, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:51 GMT+05:30" name="seePhotos" finished-at="2022-03-27T12:27:52 GMT+05:30" duration-ms="1044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seePhotos -->
-        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.RentArticle@290222c1]" started-at="2022-03-26T19:46:50 GMT+05:30" name="driverExit" finished-at="2022-03-26T19:46:50 GMT+05:30" duration-ms="617" status="PASS">
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.RentArticle@67f639d3]" started-at="2022-03-27T12:27:52 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:27:53 GMT+05:30" duration-ms="495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverExit -->
       </class> <!-- runner.RentArticle -->
     </test> <!-- Test4 -->
-    <test started-at="2022-03-26T19:46:50 GMT+05:30" name="Test5" finished-at="2022-03-26T19:47:00 GMT+05:30" duration-ms="9804">
+    <test started-at="2022-03-27T12:27:53 GMT+05:30" name="Test5" finished-at="2022-03-27T12:28:04 GMT+05:30" duration-ms="10658">
       <class name="runner.CommercialPropertyArticle">
-        <test-method is-config="true" signature="required()[pri:0, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:50 GMT+05:30" name="required" finished-at="2022-03-26T19:46:50 GMT+05:30" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:27:53 GMT+05:30" name="required" finished-at="2022-03-27T12:27:53 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- required -->
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:50 GMT+05:30" name="driverSetUp" finished-at="2022-03-26T19:46:52 GMT+05:30" duration-ms="1091" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:27:53 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:27:54 GMT+05:30" duration-ms="1252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -242,55 +242,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="setUp()[pri:0, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:52 GMT+05:30" name="setUp" finished-at="2022-03-26T19:46:52 GMT+05:30" duration-ms="0" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:27:54 GMT+05:30" name="setUp" finished-at="2022-03-27T12:27:54 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNoDroker()[pri:1, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:52 GMT+05:30" name="openNoDroker" finished-at="2022-03-26T19:46:53 GMT+05:30" duration-ms="1689" status="PASS">
+        <test-method signature="openNoDroker()[pri:1, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:27:54 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:27:56 GMT+05:30" duration-ms="1590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNoDroker -->
-        <test-method signature="selectSearchType()[pri:2, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:53 GMT+05:30" name="selectSearchType" finished-at="2022-03-26T19:46:54 GMT+05:30" duration-ms="624" status="PASS">
+        <test-method signature="selectSearchType()[pri:2, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:27:56 GMT+05:30" name="selectSearchType" finished-at="2022-03-27T12:27:56 GMT+05:30" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSearchType -->
-        <test-method signature="selectCity()[pri:3, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:54 GMT+05:30" name="selectCity" finished-at="2022-03-26T19:46:54 GMT+05:30" duration-ms="400" status="PASS">
+        <test-method signature="selectCity()[pri:3, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:27:56 GMT+05:30" name="selectCity" finished-at="2022-03-27T12:27:57 GMT+05:30" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCity -->
-        <test-method signature="selectCommercialPropertyType()[pri:4, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:54 GMT+05:30" name="selectCommercialPropertyType" finished-at="2022-03-26T19:46:54 GMT+05:30" duration-ms="114" status="PASS">
+        <test-method signature="selectCommercialPropertyType()[pri:4, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:27:57 GMT+05:30" name="selectCommercialPropertyType" finished-at="2022-03-27T12:27:57 GMT+05:30" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCommercialPropertyType -->
-        <test-method signature="optionFromDropDown()[pri:5, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:54 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-26T19:46:55 GMT+05:30" duration-ms="382" status="PASS">
+        <test-method signature="optionFromDropDown()[pri:5, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:27:57 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-27T12:27:58 GMT+05:30" duration-ms="453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- optionFromDropDown -->
-        <test-method signature="selectLocalityAndSearch()[pri:6, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:55 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-26T19:46:57 GMT+05:30" duration-ms="2067" status="PASS">
+        <test-method signature="selectLocalityAndSearch()[pri:6, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:27:58 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-27T12:28:00 GMT+05:30" duration-ms="1943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLocalityAndSearch -->
-        <test-method signature="clickArticle()[pri:7, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:57 GMT+05:30" name="clickArticle" finished-at="2022-03-26T19:46:58 GMT+05:30" duration-ms="1589" status="PASS">
+        <test-method signature="clickArticle()[pri:7, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:28:00 GMT+05:30" name="clickArticle" finished-at="2022-03-27T12:28:01 GMT+05:30" duration-ms="1721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickArticle -->
-        <test-method signature="seePhotos()[pri:8, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:46:58 GMT+05:30" name="seePhotos" finished-at="2022-03-26T19:47:00 GMT+05:30" duration-ms="1364" status="PASS">
+        <test-method signature="seePhotos()[pri:8, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:28:01 GMT+05:30" name="seePhotos" finished-at="2022-03-27T12:28:03 GMT+05:30" duration-ms="1847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seePhotos -->
-        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.CommercialPropertyArticle@82de64a]" started-at="2022-03-26T19:47:00 GMT+05:30" name="driverExit" finished-at="2022-03-26T19:47:00 GMT+05:30" duration-ms="474" status="PASS">
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.CommercialPropertyArticle@659499f1]" started-at="2022-03-27T12:28:03 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:28:04 GMT+05:30" duration-ms="515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverExit -->
       </class> <!-- runner.CommercialPropertyArticle -->
     </test> <!-- Test5 -->
-    <test started-at="2022-03-26T19:47:00 GMT+05:30" name="Test6" finished-at="2022-03-26T19:47:11 GMT+05:30" duration-ms="10295">
+    <test started-at="2022-03-27T12:28:04 GMT+05:30" name="Test6" finished-at="2022-03-27T12:28:14 GMT+05:30" duration-ms="10472">
       <class name="runner.CommercialPropertyMap">
-        <test-method is-config="true" signature="required()[pri:0, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:00 GMT+05:30" name="required" finished-at="2022-03-26T19:47:00 GMT+05:30" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:04 GMT+05:30" name="required" finished-at="2022-03-27T12:28:04 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- required -->
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:00 GMT+05:30" name="driverSetUp" finished-at="2022-03-26T19:47:01 GMT+05:30" duration-ms="1138" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:04 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:28:05 GMT+05:30" duration-ms="1046" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -301,47 +301,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="setUp()[pri:0, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:01 GMT+05:30" name="setUp" finished-at="2022-03-26T19:47:01 GMT+05:30" duration-ms="1" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:05 GMT+05:30" name="setUp" finished-at="2022-03-27T12:28:05 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNoDroker()[pri:1, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:01 GMT+05:30" name="openNoDroker" finished-at="2022-03-26T19:47:03 GMT+05:30" duration-ms="1570" status="PASS">
+        <test-method signature="openNoDroker()[pri:1, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:05 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:28:06 GMT+05:30" duration-ms="1507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNoDroker -->
-        <test-method signature="selectSearchType()[pri:2, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:03 GMT+05:30" name="selectSearchType" finished-at="2022-03-26T19:47:04 GMT+05:30" duration-ms="652" status="PASS">
+        <test-method signature="selectSearchType()[pri:2, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:06 GMT+05:30" name="selectSearchType" finished-at="2022-03-27T12:28:07 GMT+05:30" duration-ms="737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSearchType -->
-        <test-method signature="selectCity()[pri:3, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:04 GMT+05:30" name="selectCity" finished-at="2022-03-26T19:47:04 GMT+05:30" duration-ms="345" status="PASS">
+        <test-method signature="selectCity()[pri:3, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:07 GMT+05:30" name="selectCity" finished-at="2022-03-27T12:28:07 GMT+05:30" duration-ms="530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCity -->
-        <test-method signature="selectCommercialPropertyType()[pri:4, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:04 GMT+05:30" name="selectCommercialPropertyType" finished-at="2022-03-26T19:47:04 GMT+05:30" duration-ms="102" status="PASS">
+        <test-method signature="selectCommercialPropertyType()[pri:4, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:07 GMT+05:30" name="selectCommercialPropertyType" finished-at="2022-03-27T12:28:08 GMT+05:30" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCommercialPropertyType -->
-        <test-method signature="optionFromDropDown()[pri:5, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:04 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-26T19:47:04 GMT+05:30" duration-ms="360" status="PASS">
+        <test-method signature="optionFromDropDown()[pri:5, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:08 GMT+05:30" name="optionFromDropDown" finished-at="2022-03-27T12:28:08 GMT+05:30" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- optionFromDropDown -->
-        <test-method signature="selectLocalityAndSearch()[pri:6, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:04 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-26T19:47:06 GMT+05:30" duration-ms="1954" status="PASS">
+        <test-method signature="selectLocalityAndSearch()[pri:6, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:08 GMT+05:30" name="selectLocalityAndSearch" finished-at="2022-03-27T12:28:10 GMT+05:30" duration-ms="2427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLocalityAndSearch -->
-        <test-method signature="swithMapAndZoom()[pri:7, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:06 GMT+05:30" name="swithMapAndZoom" finished-at="2022-03-26T19:47:10 GMT+05:30" duration-ms="3702" status="PASS">
+        <test-method signature="swithMapAndZoom()[pri:7, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:10 GMT+05:30" name="swithMapAndZoom" finished-at="2022-03-27T12:28:14 GMT+05:30" duration-ms="3134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- swithMapAndZoom -->
-        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.CommercialPropertyMap@61001b64]" started-at="2022-03-26T19:47:10 GMT+05:30" name="driverExit" finished-at="2022-03-26T19:47:11 GMT+05:30" duration-ms="464" status="PASS">
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.CommercialPropertyMap@4310d43]" started-at="2022-03-27T12:28:14 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:28:14 GMT+05:30" duration-ms="479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverExit -->
       </class> <!-- runner.CommercialPropertyMap -->
     </test> <!-- Test6 -->
-    <test started-at="2022-03-26T19:47:11 GMT+05:30" name="Test7" finished-at="2022-03-26T19:47:17 GMT+05:30" duration-ms="6184">
+    <test started-at="2022-03-27T12:28:14 GMT+05:30" name="Test7" finished-at="2022-03-27T12:28:20 GMT+05:30" duration-ms="5507">
       <class name="runner.EmiCalculator">
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.EmiCalculator@4659191b]" started-at="2022-03-26T19:47:11 GMT+05:30" name="driverSetUp" finished-at="2022-03-26T19:47:12 GMT+05:30" duration-ms="1199" status="PASS">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.EmiCalculator@55634720]" started-at="2022-03-27T12:28:14 GMT+05:30" name="required" finished-at="2022-03-27T12:28:14 GMT+05:30" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.EmiCalculator@55634720]" started-at="2022-03-27T12:28:14 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:28:15 GMT+05:30" duration-ms="1159" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -352,47 +356,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="required()[pri:0, instance:runner.EmiCalculator@4659191b]" started-at="2022-03-26T19:47:11 GMT+05:30" name="required" finished-at="2022-03-26T19:47:11 GMT+05:30" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- required -->
-        <test-method signature="setUp()[pri:0, instance:runner.EmiCalculator@4659191b]" started-at="2022-03-26T19:47:12 GMT+05:30" name="setUp" finished-at="2022-03-26T19:47:12 GMT+05:30" duration-ms="1" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:runner.EmiCalculator@55634720]" started-at="2022-03-27T12:28:15 GMT+05:30" name="setUp" finished-at="2022-03-27T12:28:15 GMT+05:30" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNoDroker()[pri:1, instance:runner.EmiCalculator@4659191b]" started-at="2022-03-26T19:47:12 GMT+05:30" name="openNoDroker" finished-at="2022-03-26T19:47:14 GMT+05:30" duration-ms="1922" status="PASS">
+        <test-method signature="openNoDroker()[pri:1, instance:runner.EmiCalculator@55634720]" started-at="2022-03-27T12:28:15 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:28:17 GMT+05:30" duration-ms="1546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNoDroker -->
-        <test-method signature="emiFooterLink()[pri:2, instance:runner.EmiCalculator@4659191b]" started-at="2022-03-26T19:47:14 GMT+05:30" name="emiFooterLink" finished-at="2022-03-26T19:47:16 GMT+05:30" duration-ms="1966" status="PASS">
+        <test-method signature="emiFooterLink()[pri:2, instance:runner.EmiCalculator@55634720]" started-at="2022-03-27T12:28:17 GMT+05:30" name="emiFooterLink" finished-at="2022-03-27T12:28:19 GMT+05:30" duration-ms="1775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emiFooterLink -->
-        <test-method signature="loanAmount()[pri:3, instance:runner.EmiCalculator@4659191b]" started-at="2022-03-26T19:47:16 GMT+05:30" name="loanAmount" finished-at="2022-03-26T19:47:16 GMT+05:30" duration-ms="206" status="PASS">
+        <test-method signature="loanAmount()[pri:3, instance:runner.EmiCalculator@55634720]" started-at="2022-03-27T12:28:19 GMT+05:30" name="loanAmount" finished-at="2022-03-27T12:28:19 GMT+05:30" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanAmount -->
-        <test-method signature="rateOfInterest()[pri:4, instance:runner.EmiCalculator@4659191b]" started-at="2022-03-26T19:47:16 GMT+05:30" name="rateOfInterest" finished-at="2022-03-26T19:47:16 GMT+05:30" duration-ms="158" status="PASS">
+        <test-method signature="rateOfInterest()[pri:4, instance:runner.EmiCalculator@55634720]" started-at="2022-03-27T12:28:19 GMT+05:30" name="rateOfInterest" finished-at="2022-03-27T12:28:19 GMT+05:30" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rateOfInterest -->
-        <test-method signature="loanTenure()[pri:5, instance:runner.EmiCalculator@4659191b]" started-at="2022-03-26T19:47:16 GMT+05:30" name="loanTenure" finished-at="2022-03-26T19:47:16 GMT+05:30" duration-ms="157" status="PASS">
+        <test-method signature="loanTenure()[pri:5, instance:runner.EmiCalculator@55634720]" started-at="2022-03-27T12:28:19 GMT+05:30" name="loanTenure" finished-at="2022-03-27T12:28:19 GMT+05:30" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanTenure -->
-        <test-method signature="output()[pri:6, instance:runner.EmiCalculator@4659191b]" started-at="2022-03-26T19:47:16 GMT+05:30" name="output" finished-at="2022-03-26T19:47:16 GMT+05:30" duration-ms="207" status="PASS">
+        <test-method signature="output()[pri:6, instance:runner.EmiCalculator@55634720]" started-at="2022-03-27T12:28:19 GMT+05:30" name="output" finished-at="2022-03-27T12:28:19 GMT+05:30" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- output -->
-        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.EmiCalculator@4659191b]" started-at="2022-03-26T19:47:16 GMT+05:30" name="driverExit" finished-at="2022-03-26T19:47:17 GMT+05:30" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.EmiCalculator@55634720]" started-at="2022-03-27T12:28:19 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:28:20 GMT+05:30" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverExit -->
       </class> <!-- runner.EmiCalculator -->
     </test> <!-- Test7 -->
-    <test started-at="2022-03-26T19:47:17 GMT+05:30" name="Test8" finished-at="2022-03-26T19:47:23 GMT+05:30" duration-ms="6462">
+    <test started-at="2022-03-27T12:28:20 GMT+05:30" name="Test8" finished-at="2022-03-27T12:28:26 GMT+05:30" duration-ms="6623">
       <class name="runner.AboutUs">
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.AboutUs@29215f06]" started-at="2022-03-26T19:47:17 GMT+05:30" name="driverSetUp" finished-at="2022-03-26T19:47:18 GMT+05:30" duration-ms="1065" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.AboutUs@59505b48]" started-at="2022-03-27T12:28:20 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:28:21 GMT+05:30" duration-ms="1113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -403,39 +403,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="required()[pri:0, instance:runner.AboutUs@29215f06]" started-at="2022-03-26T19:47:17 GMT+05:30" name="required" finished-at="2022-03-26T19:47:17 GMT+05:30" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.AboutUs@59505b48]" started-at="2022-03-27T12:28:20 GMT+05:30" name="required" finished-at="2022-03-27T12:28:20 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- required -->
-        <test-method signature="setUp()[pri:0, instance:runner.AboutUs@29215f06]" started-at="2022-03-26T19:47:18 GMT+05:30" name="setUp" finished-at="2022-03-26T19:47:18 GMT+05:30" duration-ms="1" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:runner.AboutUs@59505b48]" started-at="2022-03-27T12:28:21 GMT+05:30" name="setUp" finished-at="2022-03-27T12:28:21 GMT+05:30" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNoDroker()[pri:1, instance:runner.AboutUs@29215f06]" started-at="2022-03-26T19:47:18 GMT+05:30" name="openNoDroker" finished-at="2022-03-26T19:47:20 GMT+05:30" duration-ms="1741" status="PASS">
+        <test-method signature="openNoDroker()[pri:1, instance:runner.AboutUs@59505b48]" started-at="2022-03-27T12:28:21 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:28:22 GMT+05:30" duration-ms="1698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNoDroker -->
-        <test-method signature="clickAboutUs()[pri:2, instance:runner.AboutUs@29215f06]" started-at="2022-03-26T19:47:20 GMT+05:30" name="clickAboutUs" finished-at="2022-03-26T19:47:21 GMT+05:30" duration-ms="1164" status="PASS">
+        <test-method signature="clickAboutUs()[pri:2, instance:runner.AboutUs@59505b48]" started-at="2022-03-27T12:28:22 GMT+05:30" name="clickAboutUs" finished-at="2022-03-27T12:28:24 GMT+05:30" duration-ms="1193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAboutUs -->
-        <test-method signature="OpenHomeLoan()[pri:3, instance:runner.AboutUs@29215f06]" started-at="2022-03-26T19:47:21 GMT+05:30" name="OpenHomeLoan" finished-at="2022-03-26T19:47:23 GMT+05:30" duration-ms="2177" status="PASS">
+        <test-method signature="OpenHomeLoan()[pri:3, instance:runner.AboutUs@59505b48]" started-at="2022-03-27T12:28:24 GMT+05:30" name="OpenHomeLoan" finished-at="2022-03-27T12:28:26 GMT+05:30" duration-ms="2227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenHomeLoan -->
-        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.AboutUs@29215f06]" started-at="2022-03-26T19:47:23 GMT+05:30" name="driverExit" finished-at="2022-03-26T19:47:23 GMT+05:30" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.AboutUs@59505b48]" started-at="2022-03-27T12:28:26 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:28:26 GMT+05:30" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverExit -->
       </class> <!-- runner.AboutUs -->
     </test> <!-- Test8 -->
-    <test started-at="2022-03-26T19:47:23 GMT+05:30" name="Test9" finished-at="2022-03-26T19:47:28 GMT+05:30" duration-ms="4883">
+    <test started-at="2022-03-27T12:28:26 GMT+05:30" name="Test9" finished-at="2022-03-27T12:28:31 GMT+05:30" duration-ms="4662">
       <class name="runner.Wallet">
-        <test-method is-config="true" signature="required()[pri:0, instance:runner.Wallet@7d4f9aae]" started-at="2022-03-26T19:47:23 GMT+05:30" name="required" finished-at="2022-03-26T19:47:23 GMT+05:30" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.Wallet@72e5a8e]" started-at="2022-03-27T12:28:26 GMT+05:30" name="required" finished-at="2022-03-27T12:28:26 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- required -->
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.Wallet@7d4f9aae]" started-at="2022-03-26T19:47:23 GMT+05:30" name="driverSetUp" finished-at="2022-03-26T19:47:24 GMT+05:30" duration-ms="1028" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.Wallet@72e5a8e]" started-at="2022-03-27T12:28:26 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:28:27 GMT+05:30" duration-ms="1111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -446,39 +446,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="setUp()[pri:0, instance:runner.Wallet@7d4f9aae]" started-at="2022-03-26T19:47:24 GMT+05:30" name="setUp" finished-at="2022-03-26T19:47:24 GMT+05:30" duration-ms="2" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:runner.Wallet@72e5a8e]" started-at="2022-03-27T12:28:27 GMT+05:30" name="setUp" finished-at="2022-03-27T12:28:27 GMT+05:30" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNoDroker()[pri:1, instance:runner.Wallet@7d4f9aae]" started-at="2022-03-26T19:47:24 GMT+05:30" name="openNoDroker" finished-at="2022-03-26T19:47:26 GMT+05:30" duration-ms="1747" status="PASS">
+        <test-method signature="openNoDroker()[pri:1, instance:runner.Wallet@72e5a8e]" started-at="2022-03-27T12:28:27 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:28:29 GMT+05:30" duration-ms="1550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNoDroker -->
-        <test-method signature="openMenu()[pri:2, instance:runner.Wallet@7d4f9aae]" started-at="2022-03-26T19:47:26 GMT+05:30" name="openMenu" finished-at="2022-03-26T19:47:26 GMT+05:30" duration-ms="210" status="PASS">
+        <test-method signature="openMenu()[pri:2, instance:runner.Wallet@72e5a8e]" started-at="2022-03-27T12:28:29 GMT+05:30" name="openMenu" finished-at="2022-03-27T12:28:29 GMT+05:30" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMenu -->
-        <test-method signature="openWallet()[pri:3, instance:runner.Wallet@7d4f9aae]" started-at="2022-03-26T19:47:26 GMT+05:30" name="openWallet" finished-at="2022-03-26T19:47:27 GMT+05:30" duration-ms="1219" status="PASS">
+        <test-method signature="openWallet()[pri:3, instance:runner.Wallet@72e5a8e]" started-at="2022-03-27T12:28:29 GMT+05:30" name="openWallet" finished-at="2022-03-27T12:28:30 GMT+05:30" duration-ms="1073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWallet -->
-        <test-method signature="joinClub()[pri:4, instance:runner.Wallet@7d4f9aae]" started-at="2022-03-26T19:47:27 GMT+05:30" name="joinClub" finished-at="2022-03-26T19:47:28 GMT+05:30" duration-ms="396" status="PASS">
+        <test-method signature="joinClub()[pri:4, instance:runner.Wallet@72e5a8e]" started-at="2022-03-27T12:28:30 GMT+05:30" name="joinClub" finished-at="2022-03-27T12:28:31 GMT+05:30" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- joinClub -->
-        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.Wallet@7d4f9aae]" started-at="2022-03-26T19:47:28 GMT+05:30" name="driverExit" finished-at="2022-03-26T19:47:28 GMT+05:30" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.Wallet@72e5a8e]" started-at="2022-03-27T12:28:31 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:28:31 GMT+05:30" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverExit -->
       </class> <!-- runner.Wallet -->
     </test> <!-- Test9 -->
-    <test started-at="2022-03-26T19:47:28 GMT+05:30" name="Test10" finished-at="2022-03-26T19:47:36 GMT+05:30" duration-ms="8197">
+    <test started-at="2022-03-27T12:28:31 GMT+05:30" name="Test10" finished-at="2022-03-27T12:28:38 GMT+05:30" duration-ms="6712">
       <class name="runner.Interior">
-        <test-method is-config="true" signature="required()[pri:0, instance:runner.Interior@783a467b]" started-at="2022-03-26T19:47:28 GMT+05:30" name="required" finished-at="2022-03-26T19:47:28 GMT+05:30" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.Interior@272113c4]" started-at="2022-03-27T12:28:31 GMT+05:30" name="required" finished-at="2022-03-27T12:28:31 GMT+05:30" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- required -->
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.Interior@783a467b]" started-at="2022-03-26T19:47:28 GMT+05:30" name="driverSetUp" finished-at="2022-03-26T19:47:29 GMT+05:30" duration-ms="1110" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.Interior@272113c4]" started-at="2022-03-27T12:28:31 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:28:32 GMT+05:30" duration-ms="1027" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -489,31 +489,117 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="setUp()[pri:0, instance:runner.Interior@783a467b]" started-at="2022-03-26T19:47:29 GMT+05:30" name="setUp" finished-at="2022-03-26T19:47:29 GMT+05:30" duration-ms="1" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:runner.Interior@272113c4]" started-at="2022-03-27T12:28:32 GMT+05:30" name="setUp" finished-at="2022-03-27T12:28:32 GMT+05:30" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNoDroker()[pri:1, instance:runner.Interior@783a467b]" started-at="2022-03-26T19:47:29 GMT+05:30" name="openNoDroker" finished-at="2022-03-26T19:47:31 GMT+05:30" duration-ms="2187" status="PASS">
+        <test-method signature="openNoDroker()[pri:1, instance:runner.Interior@272113c4]" started-at="2022-03-27T12:28:32 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:28:34 GMT+05:30" duration-ms="1696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNoDroker -->
-        <test-method signature="openMenu()[pri:2, instance:runner.Interior@783a467b]" started-at="2022-03-26T19:47:31 GMT+05:30" name="openMenu" finished-at="2022-03-26T19:47:32 GMT+05:30" duration-ms="228" status="PASS">
+        <test-method signature="openMenu()[pri:2, instance:runner.Interior@272113c4]" started-at="2022-03-27T12:28:34 GMT+05:30" name="openMenu" finished-at="2022-03-27T12:28:34 GMT+05:30" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMenu -->
-        <test-method signature="openInterior()[pri:3, instance:runner.Interior@783a467b]" started-at="2022-03-26T19:47:32 GMT+05:30" name="openInterior" finished-at="2022-03-26T19:47:34 GMT+05:30" duration-ms="2538" status="PASS">
+        <test-method signature="openInterior()[pri:3, instance:runner.Interior@272113c4]" started-at="2022-03-27T12:28:34 GMT+05:30" name="openInterior" finished-at="2022-03-27T12:28:36 GMT+05:30" duration-ms="1862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openInterior -->
-        <test-method signature="seeRoomPhotos()[pri:4, instance:runner.Interior@783a467b]" started-at="2022-03-26T19:47:34 GMT+05:30" name="seeRoomPhotos" finished-at="2022-03-26T19:47:36 GMT+05:30" duration-ms="1635" status="PASS">
+        <test-method signature="seeRoomPhotos()[pri:4, instance:runner.Interior@272113c4]" started-at="2022-03-27T12:28:36 GMT+05:30" name="seeRoomPhotos" finished-at="2022-03-27T12:28:37 GMT+05:30" duration-ms="1623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seeRoomPhotos -->
-        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.Interior@783a467b]" started-at="2022-03-26T19:47:36 GMT+05:30" name="driverExit" finished-at="2022-03-26T19:47:36 GMT+05:30" duration-ms="494" status="PASS">
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.Interior@272113c4]" started-at="2022-03-27T12:28:37 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:28:38 GMT+05:30" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverExit -->
       </class> <!-- runner.Interior -->
     </test> <!-- Test10 -->
+    <test started-at="2022-03-27T12:28:38 GMT+05:30" name="Test11" finished-at="2022-03-27T12:28:43 GMT+05:30" duration-ms="5807">
+      <class name="runner.ValidLogin">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.ValidLogin@1ed6388a]" started-at="2022-03-27T12:28:38 GMT+05:30" name="required" finished-at="2022-03-27T12:28:38 GMT+05:30" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.ValidLogin@1ed6388a]" started-at="2022-03-27T12:28:38 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:28:39 GMT+05:30" duration-ms="1173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="setUp()[pri:0, instance:runner.ValidLogin@1ed6388a]" started-at="2022-03-27T12:28:39 GMT+05:30" name="setUp" finished-at="2022-03-27T12:28:39 GMT+05:30" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openNoDroker()[pri:1, instance:runner.ValidLogin@1ed6388a]" started-at="2022-03-27T12:28:39 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:28:40 GMT+05:30" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNoDroker -->
+        <test-method signature="clickLogin()[pri:2, instance:runner.ValidLogin@1ed6388a]" started-at="2022-03-27T12:28:40 GMT+05:30" name="clickLogin" finished-at="2022-03-27T12:28:41 GMT+05:30" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+        <test-method signature="enterNumber()[pri:3, instance:runner.ValidLogin@1ed6388a]" started-at="2022-03-27T12:28:41 GMT+05:30" name="enterNumber" finished-at="2022-03-27T12:28:42 GMT+05:30" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNumber -->
+        <test-method signature="enterPassAndLogin()[pri:4, instance:runner.ValidLogin@1ed6388a]" started-at="2022-03-27T12:28:42 GMT+05:30" name="enterPassAndLogin" finished-at="2022-03-27T12:28:43 GMT+05:30" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassAndLogin -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.ValidLogin@1ed6388a]" started-at="2022-03-27T12:28:43 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:28:43 GMT+05:30" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.ValidLogin -->
+    </test> <!-- Test11 -->
+    <test started-at="2022-03-27T12:28:43 GMT+05:30" name="Test12" finished-at="2022-03-27T12:28:49 GMT+05:30" duration-ms="5590">
+      <class name="runner.InvalidLogin">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.InvalidLogin@121314f7]" started-at="2022-03-27T12:28:43 GMT+05:30" name="required" finished-at="2022-03-27T12:28:43 GMT+05:30" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.InvalidLogin@121314f7]" started-at="2022-03-27T12:28:43 GMT+05:30" name="driverSetUp" finished-at="2022-03-27T12:28:45 GMT+05:30" duration-ms="1103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="setUp()[pri:0, instance:runner.InvalidLogin@121314f7]" started-at="2022-03-27T12:28:45 GMT+05:30" name="setUp" finished-at="2022-03-27T12:28:45 GMT+05:30" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openNoDroker()[pri:1, instance:runner.InvalidLogin@121314f7]" started-at="2022-03-27T12:28:45 GMT+05:30" name="openNoDroker" finished-at="2022-03-27T12:28:46 GMT+05:30" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNoDroker -->
+        <test-method signature="clickLogin()[pri:2, instance:runner.InvalidLogin@121314f7]" started-at="2022-03-27T12:28:46 GMT+05:30" name="clickLogin" finished-at="2022-03-27T12:28:47 GMT+05:30" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+        <test-method signature="enterNumber()[pri:3, instance:runner.InvalidLogin@121314f7]" started-at="2022-03-27T12:28:47 GMT+05:30" name="enterNumber" finished-at="2022-03-27T12:28:48 GMT+05:30" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNumber -->
+        <test-method signature="enterPassAndLogin()[pri:4, instance:runner.InvalidLogin@121314f7]" started-at="2022-03-27T12:28:48 GMT+05:30" name="enterPassAndLogin" finished-at="2022-03-27T12:28:49 GMT+05:30" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassAndLogin -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.InvalidLogin@121314f7]" started-at="2022-03-27T12:28:49 GMT+05:30" name="driverExit" finished-at="2022-03-27T12:28:49 GMT+05:30" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.InvalidLogin -->
+    </test> <!-- Test12 -->
   </suite> <!-- Suite -->
 </testng-results>
